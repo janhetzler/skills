@@ -1,0 +1,22 @@
+{
+  "name": "janhetzler-skills",
+  "owner": {
+    "name": "janhetzler",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Universal Agent Skills for documentation, OKF, and quality assurance",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "doc-skill",
+      "description": "Documentation skill: create OKF-compliant docs, apply frontmatter, review quality, follow DITA-light structure and Google Style Guide",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/doc"
+      ]
+    }
+  ]
+}
